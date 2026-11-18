@@ -13,46 +13,20 @@
 
 ### Summary
 
-AI Engineer and Master of Engineering student in **Applied AI for Digital Production Management** with a B.Sc. in **Mechatronics Engineering** and extensive experience in **Project Management**. Hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), **Machine Learning & Computer Vision** (`Python`, `PyTorch`, `Scikit-learn`), and cloud-deployed **FastAPI/Docker** microservices. Dedicated to applying AI, machine vision, and industrial data analytics to optimize complex engineering and manufacturing systems.
+AI Engineer and Master of Engineering student in **Applied AI for Digital Production Management** with a B.Sc. in **Mechatronics Engineering** and extensive experience in **Project Management**. Hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), **Machine Learning and Computer Vision** (`Python`, `PyTorch`, `Scikit-learn`), and cloud-deployed **FastAPI/Docker** microservices. Dedicated to applying AI, machine vision, and industrial data analytics to optimize complex engineering and manufacturing systems.
 
 - 🎓 **Currently:** M.Eng. in Applied AI for Digital Production Management @ Deggendorf Institute of Technology (Cham, Germany)
-- 🛠️ **Focus:** Agentic AI Workflows, Computer Vision, Industrial Data Analytics, and Production-Ready ML Microservices
+- 🛠️ **Focus:** Agentic AI Workflows, Machine Vision, Industrial Data Analytics, and FastAPI/Docker Microservices
 - 📫 **Reach me:** [ayman.m.ali148@gmail.com](mailto:ayman.m.ali148@gmail.com)
 
 ---
 
-### Work Experience
-
-#### **AI Engineer — Freelance** · *Self-Employed*
-- **Agentic AI & LLM Engineering:** Architected and orchestrated stateful Agentic AI workflows using **LangChain**, **LangGraph**, **MCP (Model Context Protocol)**, and **Tool Calling**, applying structured Prompt Engineering and automated Model Evaluation pipelines to ensure accurate, reliable outputs.
-- **Machine Learning & Computer Vision:** Developed, trained, and validated Machine Learning and Computer Vision models in **Python** using **PyTorch** and **Scikit-learn** for predictive modeling, pattern recognition, and automated visual inspection tasks.
-- **Backend APIs & Cloud Deployment:** Built and documented scalable REST APIs with **FastAPI** backed by **SQL** and **PostgreSQL** databases, containerizing applications with **Docker** and deploying them to **GCP Linux** environments via automated **Git** and **GitHub CI/CD** pipelines.
-
----
-
-### Education
-
-- **Mar 2026 – Present · Master of Engineering in Applied AI for Digital Production Management**
-  *Deggendorf Institute of Technology — Cham, Germany*
-  - **Core Curriculum:** Machine Learning & Deep Learning, Advanced Statistical Methods & Optimization, Industrial Data Management, Machine Vision, Big Data Processing & Analytics, Natural Language Processing, Digital Tools in Quality & Sustainability, Development and Production, Simulation of Production Systems.
-
-- **Aug 2019 – Nov 2019 · Post Graduate Diploma in Project Management (Executive Development Program)**
-  *The Regional Information Technology Institute (RITI) — Cairo, Egypt*
-  - **Core Focus:** Structured project lifecycle methodologies, project governance, scheduling, budgeting, and risk management.
-  - **Credential:** Certified by RITI (PMI-aligned Registered Education Provider) under Program Number `1830-PMD005`.
-
-- **Sep 2009 – Sep 2014 · Bachelor of Science in Mechatronics Engineering**
-  *The High Institute of Engineering of October 6 City — Cairo, Egypt*
-  - **Core Curriculum:** Machine Learning & Deep Learning, Natural Language Processing, Robotics & Automated Systems, Control Systems Engineering, Sensors & Actuators, Microcontrollers & Embedded Systems, Analog & Digital Circuit Design, Fluid Power (Hydraulics & Pneumatics), CAD/CAM, Mechanical Design & FEM Analysis, Power Electronics.
-  - **Final Grade:** High Good (~2.2 German equivalent) · **Thesis:** *Design & Fabrication of an Electric Vehicle (Golf Cart Scale)*.
-
----
-
-### Tech Stack & Skills
+### Technical Skills
 
 **Programming & Backend**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-02569B?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **AI, Machine Learning & LLM Engineering**
@@ -76,6 +50,33 @@ AI Engineer and Master of Engineering student in **Applied AI for Digital Produc
 | **AI & Machine Learning** | Machine Learning, PyTorch, Scikit-learn, Computer Vision, Agentic AI |
 | **LLM Engineering** | Prompt Engineering, MCP, Tool Calling, LangChain, LangGraph, Model Evaluation |
 | **Cloud & DevOps** | Docker, GCP, Linux, CI/CD, Git, GitHub |
+
+---
+
+### Work Experience
+
+#### **AI Engineer — Freelance** · *Self-Employed*
+- **Agentic AI & LLM Engineering:** Architected and orchestrated stateful Agentic AI workflows using **LangChain**, **LangGraph**, **MCP (Model Context Protocol)**, and **Tool Calling**, applying structured **Prompt Engineering** and automated **Model Evaluation** pipelines to ensure accurate, reliable outputs.
+- **Machine Learning & Computer Vision:** Developed, trained, and validated Machine Learning and Computer Vision models in **Python** using **PyTorch** and **Scikit-learn** for predictive modeling, pattern recognition, and automated visual inspection tasks.
+- **Backend APIs & Cloud Deployment:** Built and documented scalable **REST APIs** with **FastAPI** backed by **SQL** and **PostgreSQL** databases, containerizing applications with **Docker** and deploying them to **GCP Linux** environments via automated **Git** and **GitHub CI/CD** pipelines.
+
+---
+
+### Education
+
+- **Mar 2026 – Present · Master of Engineering in Applied AI for Digital Production Management**
+  *Deggendorf Institute of Technology — Cham, Germany*
+  - **Core Curriculum & Subjects:** Machine Learning & Deep Learning, Advanced Statistical Methods & Optimization, Industrial Data Management, Machine Vision, Big Data Processing & Analytics, Natural Language Processing, Digital Tools in Quality & Sustainability, Development and Production, Simulation of Production Systems.
+
+- **Aug 2019 – Nov 2019 · Post Graduate Diploma in Project Management (Executive Development Program)**
+  *The Regional Information Technology Institute — Cairo, Egypt*
+  - **Core Curriculum & Focus:** Structured project lifecycle methodologies, project governance, scheduling, budgeting, and risk management.
+  - **Professional Credential:** Certified by RITI (Registered Education Provider / PMI-aligned framework) under Program Number `1830-PMD005`, reinforcing formal training in end-to-end project execution.
+
+- **Sep 2009 – Sep 2014 · Bachelor of Science in Mechatronics Engineering**
+  *The High Institute of Engineering of October 6 City — Cairo, Egypt*
+  - **Core Curriculum & Subjects:** Machine Learning & Deep Learning, Natural Language Processing, Robotics & Automated Systems, Control Systems Engineering, Sensors & Actuators, Microcontrollers & Embedded Systems, Analog & Digital Circuit Design, Fluid Power (Hydraulics & Pneumatics), CAD/CAM, Mechanical Design & FEM Analysis, Power Electronics.
+  - **Final Grade:** High Good (equivalent to German grade ~2.2) · **Graduation Project / Bachelor Thesis:** *Design & Fabrication of an Electric Vehicle (Golf Cart Scale)*.
 
 ---
 
