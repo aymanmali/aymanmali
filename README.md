@@ -103,6 +103,42 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
 
 <table>
   <tr>
+    <td align="center" colspan="2">
+      <a href="https://github.com/aymanmali/quackboard"><img src="https://github.com/aymanmali.png" width="64" alt="QuackBoard"/></a>
+      <h3><a href="https://github.com/aymanmali/quackboard">QuackBoard</a></h3>
+      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square&logo=github&logoColor=white" alt="Creator"/>
+      <p>Open-source Tableau-like Business Intelligence platform powered by DuckDB-Wasm, Apache ECharts, and Next.js.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/CopilotKit/openfuse"><img src="https://github.com/CopilotKit.png" width="56" alt="OpenFuse"/></a>
+      <h3><a href="https://github.com/CopilotKit/openfuse">OpenFuse</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>CopilotKit's open-source personal agent with a browser, terminal, and files.</p>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/CopilotKit/OpenBot"><img src="https://github.com/CopilotKit.png" width="56" alt="OpenBot"/></a>
+      <h3><a href="https://github.com/CopilotKit/OpenBot">OpenBot</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>CopilotKit's open-source AI coworkers, each with a computer of its own.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/cline/cline"><img src="https://github.com/cline.png" width="56" alt="Cline"/></a>
+      <h3><a href="https://github.com/cline/cline">Cline</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>Autonomous coding agent as an IDE extension, CLI, and SDK.</p>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/PrefectHQ/fastmcp"><img src="https://github.com/PrefectHQ.png" width="56" alt="FastMCP"/></a>
+      <h3><a href="https://github.com/PrefectHQ/fastmcp">FastMCP</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>The fast, Pythonic way to build MCP servers and clients.</p>
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="50%">
       <a href="https://github.com/asasemahmed/openboard"><img src="https://github.com/asasemahmed.png" width="56" alt="OpenBoard"/></a>
       <h3><a href="https://github.com/asasemahmed/openboard">OpenBoard</a></h3>
@@ -116,20 +152,6 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <p>Local-first, self-hosted AI coworkers with their own computers and MCP tool integrations.</p>
     </td>
   </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/CopilotKit/openfuse"><img src="https://github.com/CopilotKit.png" width="56" alt="OpenFuse"/></a>
-      <h3><a href="https://github.com/CopilotKit/openfuse">OpenFuse</a></h3>
-      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>CopilotKit's open-source personal agent with a browser, terminal, and files.</p>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/PrefectHQ/fastmcp"><img src="https://github.com/PrefectHQ.png" width="56" alt="FastMCP"/></a>
-      <h3><a href="https://github.com/PrefectHQ/fastmcp">FastMCP</a></h3>
-      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>The fast, Pythonic way to build MCP servers and clients.</p>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -138,7 +160,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
 
 <table>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <h3>🅿️ <a href="https://github.com/aymanmali/smart-parking-guidance-system">Smart Parking Guidance & Management System</a></h3>
       <p>An end-to-end automated computer-vision parking guidance and management platform designed for a <b>300-slot facility</b> (4 zones × 75 slots, 12 edge cameras, 2 entrance counter displays, and 4 intersection directional screens).</p>
       <ul>
@@ -152,9 +174,22 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
       <img src="https://img.shields.io/badge/YOLOv8-111F68?style=flat-square" alt="YOLOv8"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
       <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
-      <img src="https://img.shields.io/badge/KiCad_PCB-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🦆 <a href="https://github.com/aymanmali/quackboard">QuackBoard: Open-Source BI & Analytics Platform</a></h3>
+      <p>An open-source, Tableau-like Business Intelligence web platform powered by <b>DuckDB-Wasm</b>, <b>Apache ECharts</b>, and <b>Next.js</b> for instant local file analytics and live SQL dashboards.</p>
+      <ul>
+        <li><b>Hybrid Query Engine:</b> In-browser DuckDB-Wasm SQL over CSV/Parquet/Excel/JSON files plus live PostgreSQL & MySQL connections with AES-256-GCM encrypted credentials and read-only execution.</li>
+        <li><b>Tableau-Style Chart Studio:</b> Drag-and-drop Dimension & Measure shelves with 9 interactive chart types, date bucketing, and an ad-hoc SQL Lab.</li>
+        <li><b>Interactive Dashboards:</b> Drag-and-resize grid layouts, global filters, click-to-cross-filter across charts, PNG/CSV export, and Docker Compose self-hosting.</li>
+      </ul>
+      <br>
+      <img src="https://img.shields.io/badge/DuckDB--Wasm-F59E0B?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB-Wasm"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+      <img src="https://img.shields.io/badge/Apache_ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white" alt="Apache ECharts"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
     </td>
   </tr>
 </table>
