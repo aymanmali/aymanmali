@@ -93,6 +93,45 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
   </tr>
 </table>
 
+<p align="center">
+  <code>Research</code> → <code>Modeling</code> → <code>Agentic AI &amp; MCP</code> → <code>FastAPI</code> → <code>Production</code>
+</p>
+
+---
+
+## 🌍 Open Source
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/asasemahmed/openboard"><img src="https://github.com/asasemahmed.png" width="56" alt="OpenBoard"/></a>
+      <h3><a href="https://github.com/asasemahmed/openboard">OpenBoard</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>Open-source infinite canvas whiteboard &amp; CLI with export and framing tools.</p>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/asasemahmed/FullDots"><img src="https://github.com/asasemahmed.png" width="56" alt="FullDots"/></a>
+      <h3><a href="https://github.com/asasemahmed/FullDots">FullDots</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>Open-source dot-art creation, export, and pack-building studio.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/CopilotKit/openfuse"><img src="https://github.com/CopilotKit.png" width="56" alt="OpenFuse"/></a>
+      <h3><a href="https://github.com/CopilotKit/openfuse">OpenFuse</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>CopilotKit's open-source personal AI agent with a browser, terminal, and files.</p>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/PrefectHQ/fastmcp"><img src="https://github.com/PrefectHQ.png" width="56" alt="FastMCP"/></a>
+      <h3><a href="https://github.com/PrefectHQ/fastmcp">FastMCP</a></h3>
+      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
+      <p>The fast, Pythonic way to build MCP servers and clients.</p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 🛠️ Tech Stack & Tools
