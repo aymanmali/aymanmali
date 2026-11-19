@@ -169,6 +169,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
         <li><b>Signage UI & Embedded Hardware:</b> React operator dashboard and live LED-style signage screens, plus ESP32 Embedded C (ESP-IDF) controller nodes and a custom KiCad PCB (<code>SPG-CTRL-v1</code>).</li>
       </ul>
       <br>
+      <a href="https://smart-parking-guidance-system.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/></a>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
       <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
@@ -185,6 +186,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
         <li><b>Interactive Dashboards:</b> Drag-and-resize grid layouts, global filters, click-to-cross-filter across charts, PNG/CSV export, and Docker Compose self-hosting.</li>
       </ul>
       <br>
+      <a href="https://quackboard-rosy.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/></a>
       <img src="https://img.shields.io/badge/DuckDB--Wasm-F59E0B?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB-Wasm"/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
       <img src="https://img.shields.io/badge/Apache_ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white" alt="Apache ECharts"/>
