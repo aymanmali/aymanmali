@@ -196,15 +196,16 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚘 ParkFlow Private DE: Barrierless ANPR Parking Platform</h3>
-      <p>A standalone, barrier-free ANPR private parking & ticketing platform built for <b>Germany</b> (malls, retail parks, hotels, hospitals) with <b>DSGVO Privacy-by-Design</b> and German civil/tax compliance (<code>BGB</code>, <code>§ 147 AO</code>, <code>§ 39 StVG</code>).</p>
+      <h3>🚘 ParkVektor Private DE: Barrierless ANPR Parking Platform</h3>
+      <p>An independent barrier-free ANPR private parking & ticketing MVP designed for <b>Germany</b> (malls, retail parks, hotels, hospitals) around <b>DSGVO Privacy-by-Design</b> principles and German civil/tax workflows (<code>BGB</code>, <code>§ 147 AO</code>, <code>§ 39 StVG</code>).</p>
       <ul>
-        <li><b>Hybrid Edge AI & Smart ANPR:</b> Python Edge AI pipeline (RTSP/ONVIF, YOLO vehicle/plate detection, multi-frame German <code>FE-Schrift</code> OCR voting, in-RAM face/windshield blurring) plus signed webhooks for Axis, Adaptive Recognition, and Hikvision cameras.</li>
-        <li><b>Tariffs, Payments & DSGVO Auto-Purge:</b> Flexible weekday/weekend tariffs, Stripe checkout (SEPA, Apple Pay, Google Pay, PayPal) with GoBD <code>19% MwSt.</code> PDF invoices, and automated raw-plate/snapshot purging with zero-PII audit logs.</li>
-        <li><b>Bilingual Portals (DE/EN):</b> Next.js Driver QR Pay & AutoPay wallets, German QWERTZ Pay-on-Foot Kiosk, Tenant Validation, Driver <i>Widerspruchsportal</i>, and Operator Admin / KBA <code>§ 39 StVG</code> QA dashboard.</li>
+        <li><b>Hybrid Edge AI & Smart ANPR:</b> Python Edge AI pipeline (RTSP/ONVIF, YOLO vehicle/plate detection, multi-frame German <code>FE-Schrift</code> OCR voting, in-RAM face/windshield blurring) plus signed webhook adapters for commercial ANPR cameras (Axis, Adaptive Recognition, Hikvision, Generic JSON).</li>
+        <li><b>Tariffs, Payments & DSGVO Auto-Purge:</b> Flexible weekday/weekend tariffs, pluggable Stripe checkout (SEPA, Apple Pay, Google Pay, PayPal) with <code>19% MwSt.</code> PDF invoices, and automated raw-plate/snapshot purging with zero-PII audit logs.</li>
+        <li><b>Bilingual Portals (DE/EN):</b> Next.js Driver QR Pay & AutoPay wallets, German QWERTZ Pay-on-Foot Kiosk, Tenant Validation, Driver <i>Widerspruchsportal</i>, and Operator Admin / <code>§ 39 StVG</code> QA dashboard.</li>
       </ul>
       <br>
       <img src="https://img.shields.io/badge/Private_Repo-64748B?style=flat-square&logo=github&logoColor=white" alt="Private Repo"/>
+      <img src="https://img.shields.io/badge/Independent_MVP-0EA5E9?style=flat-square" alt="Independent MVP"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
       <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white" alt="YOLO"/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
@@ -213,16 +214,16 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
     </td>
     <td width="50%" valign="top">
-      <h3>🚓 ParkFlow Public DE: Municipal ANPR & Scan-Car Enforcement</h3>
-      <p>A standalone B2G German municipal public street ANPR & Scan-Car enforcement platform architecture engineered for federal law (<code>§ 63g StVG</code>), <b>DSGVO</b>, and <i>Ordnungsamt</i> workflows.</p>
+      <h3>🚓 ParkVektor Public DE: Municipal ANPR & Scan-Car Enforcement</h3>
+      <p>An independent B2G German municipal public street ANPR & Scan-Car enforcement architecture concept designed around federal law (<code>§ 63g StVG</code>), <b>DSGVO</b>, and <i>Ordnungsamt</i> workflows.</p>
       <ul>
-        <li><b>Scan-Car & Fixed Street Ingestion:</b> Roof-mounted multi-camera Scan-Car Edge AI combining RTK-GPS, IMU, and PostGIS geofencing alongside signed webhooks for fixed smart ANPR cameras.</li>
+        <li><b>Scan-Car & Fixed Street Ingestion:</b> Roof-mounted multi-camera Scan-Car Edge AI architecture combining RTK-GPS, IMU, and PostGIS geofencing alongside signed webhook adapters for fixed smart ANPR cameras.</li>
         <li><b><code>§ 63g StVG</code> Privacy-by-Design:</b> Irreversible in-RAM edge blurring of pedestrians and bystanders, zero-storage instant deletion of compliant vehicles, 24-hour unverified-hit expiry, and spatial infraction mapping to federal <b>TBNR</b> codes.</li>
-        <li><b>Municipal Ecosystem & Field Ops:</b> Live SmartParking (EasyPark, Parkster, PayByPhone) & <i>Bewohnerparkausweis</i> entitlement checks, GPS-guided Field Officer PWA for on-site <i>Sichtkontrolle</i>, and <b>OWi21 / WiNOWiG</b> court-ready dossier export.</li>
+        <li><b>Municipal Ecosystem & Field Ops:</b> Adapter interfaces for digital parking entitlement checks (e.g., SmartParking / <i>Bewohnerparkausweis</i>), GPS-guided Field Officer PWA for on-site <i>Sichtkontrolle</i>, and municipal fine dossier export (OWi21 / WiNOWiG formats).</li>
       </ul>
       <br>
       <img src="https://img.shields.io/badge/Private_Repo-64748B?style=flat-square&logo=github&logoColor=white" alt="Private Repo"/>
-      <img src="https://img.shields.io/badge/Architecture-0EA5E9?style=flat-square" alt="Architecture"/>
+      <img src="https://img.shields.io/badge/Architecture_Concept-0EA5E9?style=flat-square" alt="Architecture Concept"/>
       <img src="https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostGIS"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
       <img src="https://img.shields.io/badge/Edge_AI-0F766E?style=flat-square" alt="Edge AI"/>
@@ -231,6 +232,10 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <sub><i>Note: ParkVektor Private DE and ParkVektor Public DE are independent R&amp;D / architecture projects (synthetic simulation only) and are not affiliated with or endorsed by any third-party hardware, payment, or municipal software vendors.</i></sub>
+</p>
 
 ---
 
