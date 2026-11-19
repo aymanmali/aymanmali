@@ -94,7 +94,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
 </table>
 
 <p align="center">
-  <code>Research</code> → <code>Modeling</code> → <code>Agentic AI &amp; MCP</code> → <code>FastAPI</code> → <code>Production</code>
+  <code>Mechatronics</code> → <code>Machine Vision</code> → <code>Agentic AI & MCP</code> → <code>FastAPI & Docker</code> → <code>Production</code>
 </p>
 
 ---
@@ -107,13 +107,13 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <a href="https://github.com/asasemahmed/openboard"><img src="https://github.com/asasemahmed.png" width="56" alt="OpenBoard"/></a>
       <h3><a href="https://github.com/asasemahmed/openboard">OpenBoard</a></h3>
       <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>Open-source infinite canvas whiteboard &amp; CLI with export and framing tools.</p>
+      <p>A shared canvas your AI agent can read, edit, and be steered from. Works with any MCP client.</p>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/asasemahmed/FullDots"><img src="https://github.com/asasemahmed.png" width="56" alt="FullDots"/></a>
       <h3><a href="https://github.com/asasemahmed/FullDots">FullDots</a></h3>
       <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>Open-source dot-art creation, export, and pack-building studio.</p>
+      <p>Local-first, self-hosted AI coworkers with their own computers and MCP tool integrations.</p>
     </td>
   </tr>
   <tr>
@@ -121,13 +121,40 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <a href="https://github.com/CopilotKit/openfuse"><img src="https://github.com/CopilotKit.png" width="56" alt="OpenFuse"/></a>
       <h3><a href="https://github.com/CopilotKit/openfuse">OpenFuse</a></h3>
       <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>CopilotKit's open-source personal AI agent with a browser, terminal, and files.</p>
+      <p>CopilotKit's open-source personal agent with a browser, terminal, and files.</p>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/PrefectHQ/fastmcp"><img src="https://github.com/PrefectHQ.png" width="56" alt="FastMCP"/></a>
       <h3><a href="https://github.com/PrefectHQ/fastmcp">FastMCP</a></h3>
       <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
       <p>The fast, Pythonic way to build MCP servers and clients.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🅿️ <a href="https://github.com/aymanmali/smart-parking-guidance-system">Smart Parking Guidance & Management System</a></h3>
+      <p>An end-to-end automated computer-vision parking guidance and management platform designed for a <b>300-slot facility</b> (4 zones × 75 slots, 12 edge cameras, 2 entrance counter displays, and 4 intersection directional screens).</p>
+      <ul>
+        <li><b>Edge Vision Pipeline:</b> YOLOv8 vehicle detection in PyTorch paired with calibrated per-slot OpenCV ROI polygons, a lightweight PyTorch CNN classifier, and temporal hysteresis filtering.</li>
+        <li><b>Real-Time Guidance Backend:</b> FastAPI REST + WebSocket server computing live zone/entrance/intersection routing with an MQTT & RS-485/CRC-16 hardware protocol bridge.</li>
+        <li><b>Signage UI & Embedded Hardware:</b> React operator dashboard and live LED-style signage screens, plus ESP32 Embedded C (ESP-IDF) controller nodes and a custom KiCad PCB (<code>SPG-CTRL-v1</code>).</li>
+      </ul>
+      <br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+      <img src="https://img.shields.io/badge/YOLOv8-111F68?style=flat-square" alt="YOLOv8"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+      <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+      <img src="https://img.shields.io/badge/KiCad_PCB-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad"/>
     </td>
   </tr>
 </table>
