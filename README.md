@@ -103,11 +103,17 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
 
 <table>
   <tr>
-    <td align="center" colspan="2">
-      <a href="https://github.com/aymanmali/quackboard"><img src="https://github.com/aymanmali.png" width="64" alt="QuackBoard"/></a>
+    <td align="center" width="50%">
+      <a href="https://github.com/aymanmali/quackboard"><img src="https://github.com/aymanmali.png" width="56" alt="QuackBoard"/></a>
       <h3><a href="https://github.com/aymanmali/quackboard">QuackBoard</a></h3>
       <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square&logo=github&logoColor=white" alt="Creator"/>
       <p>Open-source Tableau-like Business Intelligence platform powered by DuckDB-Wasm, Apache ECharts, and Next.js.</p>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/aymanmali/smart-parking-guidance-system"><img src="https://github.com/aymanmali.png" width="56" alt="Smart Parking Guidance System"/></a>
+      <h3><a href="https://github.com/aymanmali/smart-parking-guidance-system">Smart Parking Guidance System</a></h3>
+      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square&logo=github&logoColor=white" alt="Creator"/>
+      <p>Open-source 300-slot computer-vision parking guidance platform (YOLOv8, PyTorch, FastAPI, ESP32 C, KiCad PCB).</p>
     </td>
   </tr>
   <tr>
@@ -138,20 +144,6 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <p>The fast, Pythonic way to build MCP servers and clients.</p>
     </td>
   </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/asasemahmed/openboard"><img src="https://github.com/asasemahmed.png" width="56" alt="OpenBoard"/></a>
-      <h3><a href="https://github.com/asasemahmed/openboard">OpenBoard</a></h3>
-      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>A shared canvas your AI agent can read, edit, and be steered from. Works with any MCP client.</p>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/asasemahmed/FullDots"><img src="https://github.com/asasemahmed.png" width="56" alt="FullDots"/></a>
-      <h3><a href="https://github.com/asasemahmed/FullDots">FullDots</a></h3>
-      <img src="https://img.shields.io/badge/Contributor-6366F1?style=flat-square&logo=github&logoColor=white" alt="Contributor"/>
-      <p>Local-first, self-hosted AI coworkers with their own computers and MCP tool integrations.</p>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -162,7 +154,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
   <tr>
     <td width="50%" valign="top">
       <h3>🅿️ <a href="https://github.com/aymanmali/smart-parking-guidance-system">Smart Parking Guidance & Management System</a></h3>
-      <p>An end-to-end automated computer-vision parking guidance and management platform designed for a <b>300-slot facility</b> (4 zones × 75 slots, 12 edge cameras, 2 entrance counter displays, and 4 intersection directional screens).</p>
+      <p>An end-to-end automated computer-vision parking guidance and management platform for a <b>300-slot facility</b> (4 zones × 75 slots, 12 edge cameras, 2 entrance counter displays, 4 intersection directional screens), inspired by my 2019 field deployment at <b>Galleria40 Mall (LEED-certified)</b>.</p>
       <ul>
         <li><b>Edge Vision Pipeline:</b> YOLOv8 vehicle detection in PyTorch paired with calibrated per-slot OpenCV ROI polygons, a lightweight PyTorch CNN classifier, and temporal hysteresis filtering.</li>
         <li><b>Real-Time Guidance Backend:</b> FastAPI REST + WebSocket server computing live zone/entrance/intersection routing with an MQTT & RS-485/CRC-16 hardware protocol bridge.</li>
@@ -179,11 +171,11 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
     </td>
     <td width="50%" valign="top">
       <h3>🦆 <a href="https://github.com/aymanmali/quackboard">QuackBoard: Open-Source BI & Analytics Platform</a></h3>
-      <p>An open-source, Tableau-like Business Intelligence web platform powered by <b>DuckDB-Wasm</b>, <b>Apache ECharts</b>, and <b>Next.js</b> for instant local file analytics and live SQL dashboards.</p>
+      <p>An open-source, Tableau-like Business Intelligence web platform powered by <b>DuckDB-Wasm</b>, <b>Apache ECharts</b>, and <b>Next.js 15</b> for zero-setup browser file analytics and live SQL dashboards.</p>
       <ul>
         <li><b>Hybrid Query Engine:</b> In-browser DuckDB-Wasm SQL over CSV/Parquet/Excel/JSON files plus live PostgreSQL & MySQL connections with AES-256-GCM encrypted credentials and read-only execution.</li>
-        <li><b>Tableau-Style Chart Studio:</b> Drag-and-drop Dimension & Measure shelves with 9 interactive chart types, date bucketing, and an ad-hoc SQL Lab.</li>
-        <li><b>Interactive Dashboards:</b> Drag-and-resize grid layouts, global filters, click-to-cross-filter across charts, PNG/CSV export, and Docker Compose self-hosting.</li>
+        <li><b>Tableau-Style Chart Studio:</b> Drag-and-drop Dimension & Measure shelves with 9 interactive chart types, date bucketing, and a read-only ad-hoc SQL Lab.</li>
+        <li><b>Interactive Dashboards:</b> Drag-and-resize grid layouts, global filters, click-to-cross-filter across sibling charts, PNG/CSV export, portable <code>.quackboard.json</code> import/export, and zero-config IndexedDB persistence.</li>
       </ul>
       <br>
       <a href="https://quackboard-rosy.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/></a>
@@ -191,7 +183,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
       <img src="https://img.shields.io/badge/Apache_ECharts-AA344D?style=flat-square&logo=apacheecharts&logoColor=white" alt="Apache ECharts"/>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
     </td>
   </tr>
   <tr>
@@ -199,7 +191,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <h3>🚘 ParkVektor Private DE: Barrierless ANPR Parking Platform</h3>
       <p>An independent barrier-free ANPR private parking & ticketing MVP designed for <b>Germany</b> (malls, retail parks, hotels, hospitals) around <b>DSGVO Privacy-by-Design</b> principles and German civil/tax workflows (<code>BGB</code>, <code>§ 147 AO</code>, <code>§ 39 StVG</code>).</p>
       <ul>
-        <li><b>Hybrid Edge AI & Smart ANPR:</b> Python Edge AI pipeline (RTSP/ONVIF, YOLO vehicle/plate detection, multi-frame German <code>FE-Schrift</code> OCR voting, in-RAM face/windshield blurring) plus signed webhook adapters for commercial ANPR cameras (Axis, Adaptive Recognition, Hikvision, Generic JSON).</li>
+        <li><b>Hybrid Edge AI & Smart ANPR:</b> Standalone Python Edge AI daemon (RTSP/ONVIF ingest, ONNX Runtime YOLO vehicle/plate detection, EU/DE slot+CTC plate OCR with IoU multi-frame voting, German <code>FE-Schrift</code> normalization, in-RAM face/windshield blurring, SQLite WAL offline sync) plus signed webhook adapters for commercial ANPR cameras (Axis, Adaptive Recognition, Hikvision, Generic JSON).</li>
         <li><b>Tariffs, Payments & DSGVO Auto-Purge:</b> Flexible weekday/weekend tariffs, pluggable Stripe checkout (SEPA, Apple Pay, Google Pay, PayPal) with <code>19% MwSt.</code> PDF invoices, and automated raw-plate/snapshot purging with zero-PII audit logs.</li>
         <li><b>Bilingual Portals (DE/EN):</b> Next.js Driver QR Pay & AutoPay wallets, German QWERTZ Pay-on-Foot Kiosk, Tenant Validation, Driver <i>Widerspruchsportal</i>, and Operator Admin / <code>§ 39 StVG</code> QA dashboard.</li>
       </ul>
@@ -207,6 +199,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
       <img src="https://img.shields.io/badge/Private_Repo-64748B?style=flat-square&logo=github&logoColor=white" alt="Private Repo"/>
       <img src="https://img.shields.io/badge/Independent_MVP-0EA5E9?style=flat-square" alt="Independent MVP"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+      <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"/>
       <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white" alt="YOLO"/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
@@ -217,7 +210,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
 </table>
 
 <p align="center">
-  <sub><i>Note: ParkVektor Private DE is an independent R&amp;D project (synthetic simulation only) and is not affiliated with or endorsed by any third-party hardware or payment vendors.</i></sub>
+  <sub><i>Note: ParkVektor Private DE is an independent R&amp;D project (fictional Musterdaten &amp; synthetic simulation only) and is not affiliated with or endorsed by any third-party hardware or payment vendors.</i></sub>
 </p>
 
 ---
