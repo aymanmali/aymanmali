@@ -104,6 +104,8 @@ I design and ship **Agentic AI systems** (`LangGraph`, `LangChain`, `MCP`), **Co
       </ul>
       <p><code>Python</code> · <code>FastAPI</code> · <code>ONNX Runtime</code> · <code>YOLO</code> · <code>Next.js</code> · <code>PostgreSQL</code> · <code>Stripe</code> · <code>Docker</code></p>
       <p>
+        <a href="https://parkvektor-private-de.vercel.app"><img src="https://img.shields.io/badge/Live_Demo_↗-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/></a>
+        &nbsp;
         <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://img.shields.io/badge/Repository_↗-18181B?style=flat-square&logo=github&logoColor=white" alt="Repository"/></a>
         &nbsp;
         <img src="https://img.shields.io/badge/Independent_MVP-27272A?style=flat-square" alt="Independent MVP"/>
