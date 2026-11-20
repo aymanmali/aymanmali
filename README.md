@@ -204,7 +204,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
         <li><b>Bilingual Portals (DE/EN):</b> Next.js Driver QR Pay & AutoPay wallets, German QWERTZ Pay-on-Foot Kiosk, Tenant Validation, Driver <i>Widerspruchsportal</i>, and Operator Admin / <code>§ 39 StVG</code> QA dashboard.</li>
       </ul>
       <br>
-      <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://img.shields.io/badge/GitHub-Open_Source-10B981?style=flat-square&logo=github&logoColor=white" alt="Open Source"/></a>
+      <a href="https://parkvektor-private-de.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/></a>
       <a href="https://github.com/aymanmali/parkvektor-private-de/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-0EA5E9?style=flat-square" alt="MIT License"/></a>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
       <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"/>
