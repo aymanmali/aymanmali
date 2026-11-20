@@ -88,7 +88,7 @@
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/aymanmali/parkvektor-private-de">ParkVektor Private DE</a></h3>
       <p><sub><b>Barrierless ANPR Private Parking &amp; Ticketing MVP for Germany · DSGVO Privacy-by-Design</b></sub></p>
       <p>An independent barrier-free ANPR private parking and ticketing platform designed around German civil/tax workflows (<code>BGB</code>, <code>§ 147 AO</code>, <code>§ 39 StVG</code>) and edge privacy redaction.</p>
@@ -104,6 +104,22 @@
         <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://img.shields.io/badge/Repository_↗-18181B?style=flat-square&logo=github&logoColor=white" alt="Repository"/></a>
         &nbsp;
         <img src="https://img.shields.io/badge/Independent_MVP-27272A?style=flat-square" alt="Independent MVP"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/aymanmali/velora-scout">VeloraScout</a></h3>
+      <p><sub><b>Multi-Brand Fashion, Cosmetics &amp; Beauty Deal Meta-Search Engine · Next.js 15 &amp; Pluggable Affiliate Feeds</b></sub></p>
+      <p>Google-style shopping and deal aggregator comparing real-time prices, Black Friday offers, and verified promo codes across 18+ fashion/beauty brands and 8 partner retailers.</p>
+      <ul>
+        <li><b>NLP Query Intent &amp; Faceted Search:</b> Conversational search omnibox extracting price ceilings, discount thresholds, and Black Friday flags directly from natural-language queries alongside multi-vertical facets.</li>
+        <li><b>Multi-Store Price Comparison &amp; CPA Attribution:</b> Side-by-side retailer offer ranking, one-click coupon copying, multi-currency conversion (<code>USD</code>/<code>EUR</code>/<code>GBP</code>), and an outbound affiliate attribution gateway (<code>/api/redirect</code>).</li>
+        <li><b>Pluggable Feed Engine &amp; Publisher Console:</b> Adapter-based datafeed pipeline (Awin, Rakuten, CJ, Impact, Partnerize), live GMV &amp; CPA revenue analytics dashboard, and FTC / GDPR compliance suite.</li>
+      </ul>
+      <p><code>TypeScript</code> · <code>Next.js 15</code> · <code>Tailwind CSS</code> · <code>Prisma</code> · <code>REST API</code> · <code>GitHub Actions</code></p>
+      <p>
+        <a href="https://velora-scout.vercel.app"><img src="https://img.shields.io/badge/Live_Demo_↗-10B981?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo"/></a>
+        &nbsp;
+        <a href="https://github.com/aymanmali/velora-scout"><img src="https://img.shields.io/badge/Repository_↗-18181B?style=flat-square&logo=github&logoColor=white" alt="Repository"/></a>
       </p>
     </td>
   </tr>
@@ -132,6 +148,22 @@
       <h4><a href="https://github.com/aymanmali/smart-parking-guidance-system">Smart Parking Guidance System</a></h4>
       <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
       <p><sub>Open-source 300-slot computer-vision parking guidance platform (YOLOv8, PyTorch, FastAPI, ESP32 C, KiCad).</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <br/>
+      <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://github.com/aymanmali.png" width="48" alt="ParkVektor Private DE"/></a>
+      <h4><a href="https://github.com/aymanmali/parkvektor-private-de">ParkVektor Private DE</a></h4>
+      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
+      <p><sub>Barrierless ANPR private parking &amp; ticketing platform for Germany with Edge AI privacy redaction.</sub></p>
+    </td>
+    <td align="center" width="50%">
+      <br/>
+      <a href="https://github.com/aymanmali/velora-scout"><img src="https://github.com/aymanmali.png" width="48" alt="VeloraScout"/></a>
+      <h4><a href="https://github.com/aymanmali/velora-scout">VeloraScout</a></h4>
+      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
+      <p><sub>Multi-brand fashion, cosmetics &amp; beauty deal meta-search engine with pluggable affiliate feeds.</sub></p>
     </td>
   </tr>
   <tr>
