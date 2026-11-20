@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A12"/>
+      <stop offset="50%" stop-color="#0B1324"/>
+      <stop offset="100%" stop-color="#070D19"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="65%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="busGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="33%" stop-color="#38BDF8"/>
+      <stop offset="66%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="20%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowEmerald" cx="82%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.55"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      @keyframes flow {
+        0% { stroke-dashoffset: 160; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes scan {
+        0% { transform: translateX(0px); opacity: 0.2; }
+        50% { opacity: 0.85; }
+        100% { transform: translateX(900px); opacity: 0.2; }
+      }
+      .led { animation: pulse 2.2s infinite ease-in-out; }
+      .bus-flow { stroke-dasharray: 10 10; animation: flow 3.5s linear infinite; }
+      .scanline { animation: scan 7s ease-in-out infinite alternate; }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect x="2" y="2" width="956" height="346" rx="14" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="956" height="346" rx="14" fill="url(#grid)"/>
+  <rect x="2" y="2" width="956" height="346" rx="14" fill="url(#glowCyan)"/>
+  <rect x="2" y="2" width="956" height="346" rx="14" fill="url(#glowEmerald)"/>
+
+  <!-- Animated vertical telemetry scan bar -->
+  <line class="scanline" x1="30" y1="42" x2="30" y2="336" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.22"/>
+
+  <!-- Top Telemetry Header Bar -->
+  <path d="M 2 16 Q 2 2 16 2 L 944 2 Q 958 2 958 16 L 958 40 L 2 40 Z" fill="#0B1325" fill-opacity="0.9"/>
+  <line x1="2" y1="40" x2="958" y2="40" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Window / Console Indicators -->
+  <circle cx="24" cy="21" r="4.5" fill="#38BDF8" opacity="0.85"/>
+  <circle cx="40" cy="21" r="4.5" fill="#6366F1" opacity="0.85"/>
+  <circle cx="56" cy="21" r="4.5" fill="#10B981" opacity="0.85"/>
+  <text x="76" y="25" class="mono" font-size="11" fill="#94A3B8" letter-spacing="1.2">SYS.DECK // AYMAN-ALI-AI-CONTROL</text>
+
+  <!-- Right Telemetry Status -->
+  <rect x="615" y="10" width="160" height="22" rx="11" fill="#06281E" stroke="#10B981" stroke-width="0.9" stroke-opacity="0.6"/>
+  <circle class="led" cx="629" cy="21" r="4" fill="#10B981"/>
+  <text x="641" y="25" class="mono" font-size="10.5" fill="#34D399" font-weight="600" letter-spacing="0.8">ONLINE • MUNICH, DE</text>
+
+  <rect x="785" y="10" width="155" height="22" rx="11" fill="#0F172A" stroke="#38BDF8" stroke-width="0.9" stroke-opacity="0.45"/>
+  <text x="800" y="25" class="mono" font-size="10.5" fill="#38BDF8" font-weight="600" letter-spacing="0.6">DIT • M.ENG. AI</text>
+
+  <!-- Corner HUD Crosshairs -->
+  <g stroke="#38BDF8" stroke-width="1.2" opacity="0.55">
+    <path d="M 18 56 L 18 68 M 12 62 L 24 62"/>
+    <path d="M 942 56 L 942 68 M 936 62 L 948 62"/>
+    <path d="M 18 324 L 18 336 M 12 330 L 24 330"/>
+    <path d="M 942 324 L 942 336 M 936 330 L 948 330"/>
+  </g>
+
+  <!-- Identity Section -->
+  <text x="44" y="74" class="mono" font-size="11.5" fill="#38BDF8" letter-spacing="2" font-weight="600">// OPERATOR &amp; ARCHITECT</text>
+  <text x="42" y="118" class="sans" font-size="42" font-weight="800" fill="url(#titleGrad)" letter-spacing="-0.5">AYMAN ALI</text>
+
+  <!-- Accent Cyber Tag beside Name -->
+  <rect x="296" y="90" width="215" height="24" rx="5" fill="#0F1D35" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="308" y="106" class="mono" font-size="11" fill="#7DD3FC" font-weight="600">AI ENGINEER • MECHATRONICS</text>
+
+  <text x="44" y="146" class="sans" font-size="15.5" fill="#CBD5E1" font-weight="500">
+    M.Eng. Applied AI for Digital Production Management @ DIT (Germany)  <tspan fill="#38BDF8">•</tspan>  Agentic AI &amp; Computer Vision
+  </text>
+  <text x="44" y="170" class="mono" font-size="12" fill="#94A3B8">
+    Building stateful multi-agent workflows (LangGraph, MCP), real-time edge vision (PyTorch, YOLO, ONNX) &amp; FastAPI microservices.
+  </text>
+
+  <!-- Live Telemetry Bus Connector -->
+  <line x1="60" y1="262" x2="900" y2="262" stroke="#1E293B" stroke-width="3"/>
+  <line class="bus-flow" x1="60" y1="262" x2="900" y2="262" stroke="url(#busGrad)" stroke-width="2.5"/>
+
+  <!-- Pipeline Header Label -->
+  <text x="44" y="204" class="mono" font-size="10.5" fill="#64748B" letter-spacing="1.6">ACTIVE ARCHITECTURE PIPELINE // END-TO-END SIGNAL FLOW</text>
+  <line x1="415" y1="200" x2="916" y2="200" stroke="#1E293B" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- NODE 01: MECHATRONICS & EDGE -->
+  <g transform="translate(44, 218)">
+    <rect width="198" height="94" rx="9" fill="#0B1324" stroke="#F59E0B" stroke-width="1.2" stroke-opacity="0.65"/>
+    <rect x="0" y="0" width="198" height="24" rx="9" fill="#F59E0B" fill-opacity="0.12"/>
+    <circle cx="14" cy="12" r="3.5" fill="#F59E0B"/>
+    <text x="25" y="16" class="mono" font-size="10" fill="#FBBF24" font-weight="700" letter-spacing="0.8">01 // EMBEDDED &amp; EDGE</text>
+    <text x="14" y="44" class="sans" font-size="13" fill="#F8FAFC" font-weight="700">Mechatronics &amp; IoT</text>
+    <text x="14" y="63" class="mono" font-size="10.5" fill="#94A3B8">ESP32 C • RS-485 CRC16</text>
+    <text x="14" y="80" class="mono" font-size="10.5" fill="#94A3B8">KiCad PCB • MQTT Bridge</text>
+  </g>
+
+  <!-- NODE 02: MACHINE VISION -->
+  <g transform="translate(268, 218)">
+    <rect width="198" height="94" rx="9" fill="#0B1324" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.65"/>
+    <rect x="0" y="0" width="198" height="24" rx="9" fill="#38BDF8" fill-opacity="0.12"/>
+    <circle cx="14" cy="12" r="3.5" fill="#38BDF8"/>
+    <text x="25" y="16" class="mono" font-size="10" fill="#38BDF8" font-weight="700" letter-spacing="0.8">02 // MACHINE VISION</text>
+    <text x="14" y="44" class="sans" font-size="13" fill="#F8FAFC" font-weight="700">Deep Learning &amp; CV</text>
+    <text x="14" y="63" class="mono" font-size="10.5" fill="#94A3B8">PyTorch • YOLOv8 • ONNX</text>
+    <text x="14" y="80" class="mono" font-size="10.5" fill="#94A3B8">OpenCV ROI • Scikit-learn</text>
+  </g>
+
+  <!-- NODE 03: AGENTIC CORE -->
+  <g transform="translate(492, 218)">
+    <rect width="198" height="94" rx="9" fill="#0B1324" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.65"/>
+    <rect x="0" y="0" width="198" height="24" rx="9" fill="#A855F7" fill-opacity="0.12"/>
+    <circle cx="14" cy="12" r="3.5" fill="#A855F7"/>
+    <text x="25" y="16" class="mono" font-size="10" fill="#C084FC" font-weight="700" letter-spacing="0.8">03 // AGENTIC AI &amp; MCP</text>
+    <text x="14" y="44" class="sans" font-size="13" fill="#F8FAFC" font-weight="700">Autonomous Workflows</text>
+    <text x="14" y="63" class="mono" font-size="10.5" fill="#94A3B8">LangGraph • LangChain</text>
+    <text x="14" y="80" class="mono" font-size="10.5" fill="#94A3B8">MCP Servers • Tool Calling</text>
+  </g>
+
+  <!-- NODE 04: CLOUD & BI RUNTIME -->
+  <g transform="translate(716, 218)">
+    <rect width="200" height="94" rx="9" fill="#0B1324" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.65"/>
+    <rect x="0" y="0" width="200" height="24" rx="9" fill="#10B981" fill-opacity="0.12"/>
+    <circle cx="14" cy="12" r="3.5" fill="#10B981"/>
+    <text x="25" y="16" class="mono" font-size="10" fill="#34D399" font-weight="700" letter-spacing="0.8">04 // CLOUD &amp; ANALYTICS</text>
+    <text x="14" y="44" class="sans" font-size="13" fill="#F8FAFC" font-weight="700">Production Microservices</text>
+    <text x="14" y="63" class="mono" font-size="10.5" fill="#94A3B8">FastAPI • DuckDB-Wasm</text>
+    <text x="14" y="80" class="mono" font-size="10.5" fill="#94A3B8">PostgreSQL • Docker • GCP</text>
+  </g>
+
+  <!-- Outer Frame Bezel -->
+  <rect x="2" y="2" width="956" height="346" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+</svg>

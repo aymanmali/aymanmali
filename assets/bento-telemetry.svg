@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 272" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09101E"/>
+      <stop offset="100%" stop-color="#0D172A"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      .dot { animation: blink 2.6s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Card 1: Top-Left -->
+  <g transform="translate(2, 2)">
+    <rect width="468" height="128" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <line x1="0" y1="30" x2="468" y2="30" stroke="#1E293B" stroke-width="1"/>
+    <circle class="dot" cx="18" cy="15" r="3.5" fill="#38BDF8"/>
+    <text x="30" y="19" class="mono" font-size="10.5" fill="#38BDF8" font-weight="700" letter-spacing="1">MOD-01 // ENGINEERING FOUNDATION</text>
+    <text x="395" y="19" class="mono" font-size="10" fill="#64748B">[DIT • DE]</text>
+    <text x="18" y="54" class="sans" font-size="13.5" fill="#F1F5F9" font-weight="600">• M.Eng. Applied AI for Digital Production Mgmt @ DIT</text>
+    <text x="18" y="76" class="sans" font-size="13" fill="#CBD5E1">• B.Sc. in Mechatronics Engineering &amp; Project Management</text>
+    <text x="18" y="98" class="sans" font-size="13" fill="#94A3B8">• Industrial data analytics &amp; production system optimization</text>
+    <rect x="18" y="106" width="432" height="2" rx="1" fill="#38BDF8" opacity="0.25"/>
+  </g>
+
+  <!-- Card 2: Top-Right -->
+  <g transform="translate(490, 2)">
+    <rect width="468" height="128" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <line x1="0" y1="30" x2="468" y2="30" stroke="#1E293B" stroke-width="1"/>
+    <circle class="dot" cx="18" cy="15" r="3.5" fill="#A855F7"/>
+    <text x="30" y="19" class="mono" font-size="10.5" fill="#C084FC" font-weight="700" letter-spacing="1">MOD-02 // AGENTIC AI &amp; LLM SYSTEMS</text>
+    <text x="388" y="19" class="mono" font-size="10" fill="#64748B">[MCP • DAG]</text>
+    <text x="18" y="54" class="sans" font-size="13.5" fill="#F1F5F9" font-weight="600">• Stateful multi-step agent graphs with LangGraph &amp; LangChain</text>
+    <text x="18" y="76" class="sans" font-size="13" fill="#CBD5E1">• Model Context Protocol (MCP) servers, clients &amp; tool calling</text>
+    <text x="18" y="98" class="sans" font-size="13" fill="#94A3B8">• Structured prompt engineering &amp; automated model evaluation</text>
+    <rect x="18" y="106" width="432" height="2" rx="1" fill="#A855F7" opacity="0.25"/>
+  </g>
+
+  <!-- Card 3: Bottom-Left -->
+  <g transform="translate(2, 142)">
+    <rect width="468" height="128" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <line x1="0" y1="30" x2="468" y2="30" stroke="#1E293B" stroke-width="1"/>
+    <circle class="dot" cx="18" cy="15" r="3.5" fill="#10B981"/>
+    <text x="30" y="19" class="mono" font-size="10.5" fill="#34D399" font-weight="700" letter-spacing="1">MOD-03 // MACHINE LEARNING &amp; VISION</text>
+    <text x="380" y="19" class="mono" font-size="10" fill="#64748B">[EDGE • CNN]</text>
+    <text x="18" y="54" class="sans" font-size="13.5" fill="#F1F5F9" font-weight="600">• Deep learning &amp; classical ML with PyTorch &amp; Scikit-learn</text>
+    <text x="18" y="76" class="sans" font-size="13" fill="#CBD5E1">• Multi-camera YOLOv8 / ONNX detection, OpenCV ROI &amp; OCR</text>
+    <text x="18" y="98" class="sans" font-size="13" fill="#94A3B8">• In-RAM privacy redaction, temporal hysteresis &amp; inspection</text>
+    <rect x="18" y="106" width="432" height="2" rx="1" fill="#10B981" opacity="0.25"/>
+  </g>
+
+  <!-- Card 4: Bottom-Right -->
+  <g transform="translate(490, 142)">
+    <rect width="468" height="128" rx="10" fill="url(#cardBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <line x1="0" y1="30" x2="468" y2="30" stroke="#1E293B" stroke-width="1"/>
+    <circle class="dot" cx="18" cy="15" r="3.5" fill="#F59E0B"/>
+    <text x="30" y="19" class="mono" font-size="10.5" fill="#FBBF24" font-weight="700" letter-spacing="1">MOD-04 // BACKEND, CLOUD &amp; DEVOPS</text>
+    <text x="385" y="19" class="mono" font-size="10" fill="#64748B">[API • OPS]</text>
+    <text x="18" y="54" class="sans" font-size="13.5" fill="#F1F5F9" font-weight="600">• High-concurrency FastAPI REST, WebSocket &amp; SQL backends</text>
+    <text x="18" y="76" class="sans" font-size="13" fill="#CBD5E1">• DuckDB-Wasm browser OLAP, PostgreSQL &amp; SQLite WAL queues</text>
+    <text x="18" y="98" class="sans" font-size="13" fill="#94A3B8">• Dockerized microservices on GCP Linux &amp; GitHub Actions CI</text>
+    <rect x="18" y="106" width="432" height="2" rx="1" fill="#F59E0B" opacity="0.25"/>
+  </g>
+</svg>
