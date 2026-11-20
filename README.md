@@ -20,11 +20,6 @@
 
 ---
 
-## About
-
-I'm **Ayman**, an **AI Engineer** and **M.Eng. student in Applied AI for Digital Production Management** at **DIT (Germany)**, with a **B.Sc. in Mechatronics Engineering** and experience in **Project Management**.
-
-I design and ship **Agentic AI systems** (`LangGraph`, `LangChain`, `MCP`), **Computer Vision & Deep Learning pipelines** (`PyTorch`, `YOLOv8`, `ONNX`, `Scikit-learn`), and cloud-deployed **FastAPI & Docker** services that bridge software intelligence with real-world engineering systems.
 
 <table>
   <tr>
