@@ -28,7 +28,7 @@
 
 Hi, I'm **Ayman**. I'm an **AI Engineer** and **Master of Engineering student in Applied AI for Digital Production Management** with a **B.Sc. in Mechatronics Engineering**.
 
-I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), **Machine Learning and Computer Vision** (`Python`, `PyTorch`, `Scikit-learn`), and cloud-deployed **FastAPI/Docker** microservices. I'm dedicated to applying AI, machine vision, and industrial data analytics to optimize complex engineering systems.
+I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), **Machine Learning and Computer Vision** (`Python`, `PyTorch`, `Scikit-learn`), and cloud-deployed **FastAPI/Docker** microservices. I'm dedicated to applying AI, machine vision, and data analytics to optimize complex engineering systems.
 
 <table>
   <tr>
