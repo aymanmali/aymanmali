@@ -117,6 +117,14 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
     </td>
   </tr>
   <tr>
+    <td align="center" colspan="2">
+      <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://github.com/aymanmali.png" width="56" alt="ParkVektor Private DE"/></a>
+      <h3><a href="https://github.com/aymanmali/parkvektor-private-de">ParkVektor Private DE</a></h3>
+      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square&logo=github&logoColor=white" alt="Creator"/>
+      <p>Open-source barrierless ANPR private parking & ticketing platform for Germany (ONNX/YOLO Edge AI, FastAPI, Next.js, DSGVO Privacy-by-Design).</p>
+    </td>
+  </tr>
+  <tr>
     <td align="center" width="50%">
       <a href="https://github.com/CopilotKit/openfuse"><img src="https://github.com/CopilotKit.png" width="56" alt="OpenFuse"/></a>
       <h3><a href="https://github.com/CopilotKit/openfuse">OpenFuse</a></h3>
