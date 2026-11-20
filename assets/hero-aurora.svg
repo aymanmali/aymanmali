@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0C0D12"/>
+      <stop offset="100%" stop-color="#07080B"/>
+    </linearGradient>
+    <linearGradient id="topHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.65"/>
+      <stop offset="75%" stop-color="#34D399" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="borderStroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F4F4F5"/>
+      <stop offset="100%" stop-color="#A1A1AA"/>
+    </linearGradient>
+    <radialGradient id="auroraIndigo" cx="50%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.24"/>
+      <stop offset="60%" stop-color="#6366F1" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraSky" cx="24%" cy="10%" r="42%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraEmerald" cx="76%" cy="12%" r="42%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      @keyframes breathe {
+        0%, 100% { opacity: 0.95; }
+        50% { opacity: 0.35; }
+      }
+      .status-dot { animation: breathe 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Matte Obsidian Card Base -->
+  <rect x="1" y="1" width="958" height="218" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="958" height="218" rx="16" fill="url(#auroraIndigo)"/>
+  <rect x="1" y="1" width="958" height="218" rx="16" fill="url(#auroraSky)"/>
+  <rect x="1" y="1" width="958" height="218" rx="16" fill="url(#auroraEmerald)"/>
+
+  <!-- Subtle Hairline Border + Linear-style Top Specular Edge -->
+  <rect x="1" y="1" width="958" height="218" rx="16" fill="none" stroke="url(#borderStroke)" stroke-width="1"/>
+  <line x1="120" y1="1.5" x2="840" y2="1.5" stroke="url(#topHighlight)" stroke-width="1.5"/>
+
+  <!-- Minimal Status Pill -->
+  <g transform="translate(335, 34)">
+    <rect width="290" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+    <circle class="status-dot" cx="16" cy="13" r="3.5" fill="#10B981"/>
+    <text x="28" y="17" class="sans" font-size="11.5" fill="#D4D4D8" font-weight="500" letter-spacing="0.2">Munich, Germany  ·  Applied AI @ DIT</text>
+  </g>
+
+  <!-- Editorial Display Name -->
+  <text x="480" y="116" text-anchor="middle" class="sans" font-size="46" font-weight="700" fill="url(#nameGrad)" letter-spacing="-1.2">Ayman Ali</text>
+
+  <!-- Refined Subtitle -->
+  <text x="480" y="148" text-anchor="middle" class="sans" font-size="16.5" font-weight="400" fill="#A1A1AA" letter-spacing="0.1">
+    AI Engineer  <tspan fill="#52525B">·</tspan>  Agentic AI  <tspan fill="#52525B">·</tspan>  Computer Vision  <tspan fill="#52525B">·</tspan>  Mechatronics
+  </text>
+
+  <!-- Subtle Monospace Stack Whisper -->
+  <text x="480" y="182" text-anchor="middle" class="mono" font-size="11.5" fill="#71717A" letter-spacing="0.6">
+    LangGraph  /  MCP  /  PyTorch  /  YOLOv8  /  FastAPI  /  DuckDB-Wasm  /  Docker
+  </text>
+</svg>
