@@ -188,7 +188,7 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3>🚘 ParkVektor Private DE: Barrierless ANPR Parking Platform</h3>
+      <h3>🚘 <a href="https://github.com/aymanmali/parkvektor-private-de">ParkVektor Private DE: Barrierless ANPR Parking Platform</a></h3>
       <p>An independent barrier-free ANPR private parking & ticketing MVP designed for <b>Germany</b> (malls, retail parks, hotels, hospitals) around <b>DSGVO Privacy-by-Design</b> principles and German civil/tax workflows (<code>BGB</code>, <code>§ 147 AO</code>, <code>§ 39 StVG</code>).</p>
       <ul>
         <li><b>Hybrid Edge AI & Smart ANPR:</b> Standalone Python Edge AI daemon (RTSP/ONVIF ingest, ONNX Runtime YOLO vehicle/plate detection, EU/DE slot+CTC plate OCR with IoU multi-frame voting, German <code>FE-Schrift</code> normalization, in-RAM face/windshield blurring, SQLite WAL offline sync) plus signed webhook adapters for commercial ANPR cameras (Axis, Adaptive Recognition, Hikvision, Generic JSON).</li>
@@ -196,8 +196,8 @@ I have hands-on expertise in **Agentic AI** (`LangChain`, `LangGraph`, `MCP`), *
         <li><b>Bilingual Portals (DE/EN):</b> Next.js Driver QR Pay & AutoPay wallets, German QWERTZ Pay-on-Foot Kiosk, Tenant Validation, Driver <i>Widerspruchsportal</i>, and Operator Admin / <code>§ 39 StVG</code> QA dashboard.</li>
       </ul>
       <br>
-      <img src="https://img.shields.io/badge/Private_Repo-64748B?style=flat-square&logo=github&logoColor=white" alt="Private Repo"/>
-      <img src="https://img.shields.io/badge/Independent_MVP-0EA5E9?style=flat-square" alt="Independent MVP"/>
+      <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://img.shields.io/badge/GitHub-Open_Source-10B981?style=flat-square&logo=github&logoColor=white" alt="Open Source"/></a>
+      <a href="https://github.com/aymanmali/parkvektor-private-de/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-0EA5E9?style=flat-square" alt="MIT License"/></a>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
       <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"/>
       <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white" alt="YOLO"/>
