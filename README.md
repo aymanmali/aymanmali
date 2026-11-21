@@ -135,33 +135,6 @@
 
 <table>
   <tr>
-    
-    </td>
-    <td align="center" width="50%">
-      <br/>
-      <a href="https://github.com/aymanmali/smart-parking-guidance-system"><img src="https://github.com/aymanmali.png" width="48" alt="Smart Parking Guidance System"/></a>
-      <h4><a href="https://github.com/aymanmali/smart-parking-guidance-system">Smart Parking Guidance System</a></h4>
-      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
-      <p><sub>Open-source 300-slot computer-vision parking guidance platform (YOLOv8, PyTorch, FastAPI, ESP32 C, KiCad).</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <br/>
-      <a href="https://github.com/aymanmali/parkvektor-private-de"><img src="https://github.com/aymanmali.png" width="48" alt="ParkVektor Private DE"/></a>
-      <h4><a href="https://github.com/aymanmali/parkvektor-private-de">ParkVektor Private DE</a></h4>
-      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
-      <p><sub>Barrierless ANPR private parking &amp; ticketing platform for Germany with Edge AI privacy redaction.</sub></p>
-    </td>
-    <td align="center" width="50%">
-      <br/>
-      <a href="https://github.com/aymanmali/velora-scout"><img src="https://github.com/aymanmali.png" width="48" alt="VeloraScout"/></a>
-      <h4><a href="https://github.com/aymanmali/velora-scout">VeloraScout</a></h4>
-      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
-      <p><sub>Multi-brand fashion, cosmetics &amp; beauty deal meta-search engine with pluggable affiliate feeds.</sub></p>
-    </td>
-  </tr>
-  <tr>
     <td align="center" width="50%">
       <br/>
       <a href="https://github.com/CopilotKit/openfuse"><img src="https://github.com/CopilotKit.png" width="48" alt="OpenFuse"/></a>
