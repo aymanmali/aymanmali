@@ -135,12 +135,7 @@
 
 <table>
   <tr>
-    <td align="center" width="50%">
-      <br/>
-      <a href="https://github.com/aymanmali/quackboard"><img src="https://github.com/aymanmali.png" width="48" alt="QuackBoard"/></a>
-      <h4><a href="https://github.com/aymanmali/quackboard">QuackBoard</a></h4>
-      <img src="https://img.shields.io/badge/Creator-10B981?style=flat-square" alt="Creator"/>
-      <p><sub>Open-source Tableau-like BI platform powered by DuckDB-Wasm, Apache ECharts, and Next.js.</sub></p>
+    
     </td>
     <td align="center" width="50%">
       <br/>
