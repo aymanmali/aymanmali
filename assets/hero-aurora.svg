@@ -65,7 +65,7 @@
   <text x="480" y="116" text-anchor="middle" class="sans" font-size="46" font-weight="700" fill="url(#nameGrad)" letter-spacing="-1.2">Ayman Ali</text>
 
   <!-- Refined Subtitle -->
-  <text x="480" y="148" text-anchor="middle" class="sans" font-size="14.5" font-weight="400" fill="#A1A1AA" letter-spacing="0.1">
+  <text x="480" y="148" text-anchor="middle" class="sans" font-size="18.5" font-weight="400" fill="#A1A1AA" letter-spacing="0.1">
     AI Engineer  <tspan fill="#52525B">·</tspan>  Agentic AI  <tspan fill="#52525B">·</tspan>  Computer Vision  <tspan fill="#52525B">·</tspan>  Mechatronics
   </text>
 
