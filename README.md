@@ -42,7 +42,7 @@
     </td>
     <td width="50%" valign="top">
       <h4>Engineering Foundation</h4>
-      <p>AI Engineer and Master of Engineering student in Applied AI for Digital Production Management with a B.Sc. in Mechatronics Engineering.</p>
+      <p>Master of Engineering student in Applied AI for Digital Production Management at Deggendorf Institute of Technology –  Cham, Germany with a B.Sc. in Mechatronics Engineering.</p>
       <p><code>Python</code> · <code>TypeScript</code> · <code>ESP32 C</code> · <code>RS-485</code> · <code>KiCad PCB</code></p>
     </td>
   </tr>
