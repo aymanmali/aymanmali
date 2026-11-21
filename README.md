@@ -92,10 +92,6 @@
    
 </table>
 
-<p align="center">
-  <sub><i>ParkVektor Private DE is an independent R&amp;D project (fictional Musterdaten &amp; synthetic simulation only) and is not affiliated with or endorsed by any third-party hardware or payment vendors.</i></sub>
-</p>
-
 ---
 
 ## Open Source
